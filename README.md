@@ -1,10 +1,18 @@
 # Cruz Does Tech Website
 
-Static site for the Business Email Starter Setup.
+Static GitHub Pages site for Cruz Does Tech.
+
+## Brand Source
+
+The current site uses the September 2026 Cruz Does Tech brand standards and approved Connected C logo assets. The evergreen message is:
+
+> Small-business IT, handled.
+
+Temporary campaign pricing should stay out of evergreen site copy unless explicitly approved.
 
 ## Local Preview
 
-Open `website/index.html` in a browser. No server is required.
+Open `index.html` in a browser. No server is required.
 
 ## Free Hosted Options
 
