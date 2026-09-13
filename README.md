@@ -14,8 +14,22 @@ Alternative: Cloudflare Pages if Hoss wants to move DNS to Cloudflare later.
 
 ## Publish Checklist
 
-1. Confirm the hosting target: GitHub Pages or Cloudflare Pages.
+1. GitHub Pages is enabled from `main` at `/`.
 2. DNS is currently managed at Namecheap.
-3. Publish this `website/` directory as a static site.
-4. Point `cruzdoestech.com` to the hosted site from Namecheap DNS.
+3. Point `cruzdoestech.com` to GitHub Pages from Namecheap DNS.
+4. After GitHub validates the domain, enforce HTTPS in the Pages settings.
 5. Add the live website to Google Business Profile and Facebook.
+
+## Namecheap DNS Records
+
+Remove Namecheap URL forwarding for `cruzdoestech.com` and `www.cruzdoestech.com`, then add these records in Advanced DNS:
+
+| Type | Host | Value | TTL |
+|---|---|---|---|
+| A Record | @ | 185.199.108.153 | Automatic |
+| A Record | @ | 185.199.109.153 | Automatic |
+| A Record | @ | 185.199.110.153 | Automatic |
+| A Record | @ | 185.199.111.153 | Automatic |
+| CNAME Record | www | SalsaBerrySteak.github.io | Automatic |
+
+Keep the existing email-related MX, TXT, SPF, DKIM, and DMARC records unchanged.
