@@ -1,0 +1,8 @@
+{
+  "name": "Cruz Does Tech",
+  "short_name": "Cruz Does Tech",
+  "icons": [{"src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}],
+  "theme_color": "#0B1F33",
+  "background_color": "#ffffff",
+  "display": "browser"
+}

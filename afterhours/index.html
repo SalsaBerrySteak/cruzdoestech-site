@@ -1,12 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0B1F33">
   <meta name="description" content="AfterHours Lead Desk from Cruz Does Tech helps HVAC and plumbing shops handle missed calls and web leads after hours.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cruz Does Tech">
+  <meta property="og:title" content="AfterHours Lead Desk | Cruz Does Tech">
+  <meta property="og:description" content="A practical after-hours handoff for HVAC and plumbing leads.">
+  <meta property="og:url" content="https://cruzdoestech.com/afterhours/">
+  <meta property="og:image" content="https://cruzdoestech.com/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
   <title>AfterHours Lead Desk | Cruz Does Tech</title>
   <link rel="icon" type="image/svg+xml" href="../assets/cruz-does-tech-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="manifest" href="../site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -22,14 +31,15 @@
   <main id="main">
     <section class="afterhero">
       <div><p class="eyebrow">For Houston HVAC and plumbing shops</p><h1>When you miss the call, <span>the job should not disappear.</span></h1><p class="lead">AfterHours Lead Desk gives missed calls and web leads a quick answer, gathers the basics, and hands the job to the person who already books work.</p><a class="button primary" href="mailto:cruz@cruzdoestech.com?subject=AfterHours%20Lead%20Desk%20pilot">Ask about the 14-day pilot <span aria-hidden="true">→</span></a><p class="micro">Built by Cruz Does Tech. No replacement dispatch system. No pretend call center.</p></div>
-      <aside class="call-card"><p class="call-time">9:42 PM · missed HVAC call</p><div class="sms">Hi, this is your HVAC shop. Sorry we missed you. Is the system completely off, blowing warm air, leaking, or making a noise?</div><div class="sms reply">The AC is blowing warm air and the house is getting hot.</div><p class="call-note">The basics are gathered, routed, and waiting for a real person to follow up.</p></aside>
+      <aside class="call-card" aria-label="Example after-hours HVAC conversation"><p class="call-time">9:42 PM · missed HVAC call</p><div class="sms">Hi, this is your HVAC shop. Sorry we missed you. Is the system completely off, blowing warm air, leaking, or making a noise?</div><div class="sms reply">The AC is blowing warm air and the house is getting hot.</div><p class="call-note">The basics are gathered, routed, and waiting for a real person to follow up.</p></aside>
     </section>
     <section class="aftersection"><p class="eyebrow">A simple handoff</p><h2>Nothing fancy. Just the information your shop needs.</h2><div class="aftergrid"><article><b>01</b><h3>Quick reply</h3><p>A missed call or website lead gets an acknowledgement while the customer is still looking for help.</p></article><article><b>02</b><h3>Basic job details</h3><p>Name, address, what is happening, and whether it sounds urgent—without a long back-and-forth.</p></article><article><b>03</b><h3>Your normal booking route</h3><p>The lead goes to the dispatcher, shared inbox, calendar, or phone your team already uses.</p></article></div></section>
     <section class="demo-wrap"><div class="demo-head"><p class="eyebrow light">HVAC intake demo</p><h2>See a responsible after-hours handoff.</h2><p>This is a demonstration only. It does not send messages, diagnose equipment, quote arrival times, or connect to a phone number.</p></div><div class="demo-body"><div class="demo-steps" id="steps"><button class="active" type="button">1. Missed call</button><button type="button">2. Symptom check</button><button type="button">3. Safety + location</button><button type="button">4. Human handoff</button></div><div class="demo-panel"><div><p class="demo-label" id="demoLabel">Missed HVAC call</p><h3 id="demoTitle">A homeowner calls after hours.</h3><p id="demoText">The customer reaches voicemail at 9:42 PM. Instead of sitting there until morning, the lead gets a short acknowledgement asking what the system is doing.</p><button class="button primary" id="next" type="button">Show the next step <span aria-hidden="true">→</span></button></div><div class="report" id="report"><strong>Lead details</strong><p><span>Customer</span><b>Waiting for reply</b></p><p><span>Issue</span><b>Waiting for reply</b></p><p><span>Callback</span><b>Waiting for reply</b></p></div></div></div>
     </section>
     <section class="final-cta"><img src="../assets/cruz-does-tech-icon.svg" alt=""><div><p class="eyebrow">Start small</p><h2>Try one lead source for 14 days.</h2><p>We start with one missed-call or web-lead path, your existing booking route, and a plain report of what happened.</p></div><a class="button primary" href="mailto:cruz@cruzdoestech.com?subject=AfterHours%20Lead%20Desk%20pilot">Email us <span aria-hidden="true">→</span></a></section>
   </main>
-  <footer><img src="../assets/cruz-does-tech-reversed.svg" alt="Cruz Does Tech"><div><p>Small-business IT, handled.</p><a href="mailto:cruz@cruzdoestech.com">cruz@cruzdoestech.com</a><a href="../">cruzdoestech.com</a></div><p class="copyright">© <span id="year"></span> Cruz Does Tech. Houston, Texas.</p></footer>
-  <script src="afterhours.js"></script>
+  <footer><img src="../assets/cruz-does-tech-reversed.svg" alt="Cruz Does Tech"><div><p>Small-business IT, handled.</p><a href="mailto:cruz@cruzdoestech.com">cruz@cruzdoestech.com</a><a href="../">cruzdoestech.com</a></div><p class="copyright">© <span id="year"></span> Cruz Does Tech. Houston, Texas.<br><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a></p></footer>
+  <aside class="cookie-banner" id="cookieBanner" aria-label="Cookie notice" hidden><p>We use a local preference to remember this choice. We do not use advertising cookies.</p><div><a href="../privacy.html">Privacy</a><button type="button" id="cookieAccept">OK</button></div></aside>
+  <script src="afterhours.js"></script><script src="../script.js"></script>
 </body>
 </html>
